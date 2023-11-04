@@ -54,9 +54,8 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          cd ./docs \
+          hugo --config hugo.toml \
           hugo \
-            --config hugo.toml \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
