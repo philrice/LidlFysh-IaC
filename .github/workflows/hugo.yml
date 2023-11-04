@@ -48,13 +48,14 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Set Hugo Config File
+        run: hugo --config hugo.toml
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --config hugo.toml \
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
