@@ -17,14 +17,14 @@ main:
             ref: "/modules/terraform/resource-modules"
           - name: Pattern Modules
             ref: "/modules/terraform/pattern-modules"
-  - name: Level 2
-    ref: "/level-2"
+  - name: Projects
+    ref: "/projects"
     sub:
-      - name: Level 2.1
-        ref: "/level-2/level-2-1"
-      - name: Level 2.2
-        ref: "/level-2/level-2-2"
-      - name: Level 2.2 Anchor
-        ref: /level-2/level-2-2
+      - name: Customers
+        ref: "/projects/customers"
+      - name: LidlFysh
+        ref: "/projects/lidlfysh"
+      - name: Test & Development
+        ref: /projects/test-development
         # Anchor to add to the entry. This example will result in `/level-2/level-2-2/#anchor`
         anchor: anchor
