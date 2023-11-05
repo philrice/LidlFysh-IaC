@@ -52,6 +52,8 @@ jobs:
           check-latest: true
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Init & Get Geekdocs Module
+        run: hugo mod init github.com/philrice/LidlFysh-IaC/tree/main/docs && hugo mod get github.com/thegeeklab/hugo-geekdoc@v0.44.0
       - name: Set Hugo Config File
         run: hugo --config ./docs/hugo.toml
       - name: Build with Hugo

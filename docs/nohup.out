@@ -1,0 +1,3 @@
+[Parent 261373, Main Thread] WARNING: Failed to mkdir /home/philipr/snap/firefox/3290/.config/ibus/bus: Not a directory: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:261373): IBUS-WARNING **: 13:17:54.068: Failed to mkdir /home/philipr/snap/firefox/3290/.config/ibus/bus: Not a directory
