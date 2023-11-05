@@ -48,6 +48,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Init & Get Docsy Module
+        run: hugo mod init github.com/philrice/LidlFysh-IaC/tree/main/docs && hugo mod get github.com/google/docsy@v0.7.1
       - name: Set Hugo Config File
         run: hugo --config ./docs/hugo.toml
       - name: Build with Hugo
