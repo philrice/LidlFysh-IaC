@@ -1,5 +1,5 @@
 baseURL = "http://localhost"
-title = "Geekdocs"
+title = "LidlFysh-IaC"
 theme = "hugo-geekdoc"
 
 # Required to get well formatted code blocks
