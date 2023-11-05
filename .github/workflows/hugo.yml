@@ -56,9 +56,10 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo .\docs\ \
+          hugo \
             --gc \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
+        working-directory: ./docs    
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
