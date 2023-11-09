@@ -23,4 +23,8 @@ Used for projects that might be deployed across many customers tenants and that 
 ### Test - Development
 Used for testing new solutions
 
+## Docs
+This folder contains static web site code based on the HUGO and the geekdocs theme, which can be used to automatically publish markdown docs to a static site on Github Pages
+This can be seen at [https://philrice.github.io/LidlFysh-IaC/](https://philrice.github.io/LidlFysh-IaC/)
+Any time a change or committ is made in the /docs folder a github action runs to deploy this site
 
