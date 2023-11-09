@@ -1,3 +1,3 @@
-#modules - Bicep - pattern modules
+# modules - Bicep - pattern modules
 
 test text

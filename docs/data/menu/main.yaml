@@ -28,3 +28,8 @@ main:
         ref: /projects/test-development
         # Anchor to add to the entry. This example will result in `/level-2/level-2-2/#anchor`
         anchor: anchor
+header:
+  - name: Github
+    ref:  https://github.com/philrice/LidlFysh-IaC 
+    icon: gdoc_github
+    external: true
