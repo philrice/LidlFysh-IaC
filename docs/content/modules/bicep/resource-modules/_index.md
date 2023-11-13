@@ -63,17 +63,4 @@ Modules listed below that aren't shown with the status of **`Module Available ðŸ
 
 <br>
 
-## For Module Owners & Contributors
 
-{{< hint type=note >}}
-
-This section is mainly intended **for module owners and contributors** as it contains information important for module development, such as **telemetry ID prefix, and GitHub Teams for Owners & Contributors**.
-
-{{< /hint >}}
-### Module name, Telemetry ID prefix, GitHub Teams for Owners & Contributors
-
-{{< expand "âž• All Modules - Module name, Telemetry ID prefix, GitHub Teams for Owners & Contributors" "expand/collapse" >}}
-
-{{< moduleNameTelemetryGHTeams header=true csv="/static/module-indexes/BicepResourceModules.csv" language="Bicep" moduleType="resource" >}}
-
-{{< /expand >}}
