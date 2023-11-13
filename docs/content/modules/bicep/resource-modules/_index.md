@@ -43,24 +43,6 @@ Modules listed below that aren't shown with the status of **`Module Available �
 
 <br>
 
-### Planned modules
 
-{{< expand "➕ Planned Modules - Module names, status and owners" "expand/collapse" >}}
-
-{{< moduleNameStatusOwners header=true csv="/static/module-indexes/BicepResourceModules.csv" language="Bicep" moduleType="resource" exclude="Module Available :green_circle:,Module Orphaned :eyes:" >}}
-
-{{< /expand >}}
-
-<br>
-
-### All modules
-
-{{< expand "➕ All Modules - Module names, status and owners" "expand/collapse" >}}
-
-{{< moduleNameStatusOwners header=true csv="/static/module-indexes/BicepResourceModules.csv" language="Bicep" moduleType="resource" >}}
-
-{{< /expand >}}
-
-<br>
 
 
